@@ -1,0 +1,9 @@
+
+githubConfigUrl: "https://github.com/OWNER/REPOSITORY"
+githubConfigSecret: github-auth-secret
+
+minRunners: 0
+maxRunners: 3
+
+containerMode:
+  type: dind

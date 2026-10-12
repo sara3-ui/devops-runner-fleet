@@ -1,0 +1,17 @@
+name: Runner Fleet Test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test-runner:
+    runs-on: arc-runner-set
+    steps:
+      - name: Show runner information
+        run: |
+          echo "Runner fleet test started"
+          echo "Runner name: $RUNNER_NAME"
+          echo "Operating system: $RUNNER_OS"
+
+      - name: Simulate workload
+        run: sleep 30
