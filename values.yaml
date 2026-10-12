@@ -1,9 +1,7 @@
-
-githubConfigUrl: "https://github.com/OWNER/REPOSITORY"
+githubConfigUrl: "https://github.com/sara3-ui/devops-runner-fleet"
 githubConfigSecret: github-auth-secret
-
+runnerScaleSetName: arc-runner-set
 minRunners: 0
 maxRunners: 3
-
 containerMode:
   type: dind
